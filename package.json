@@ -1,0 +1,11 @@
+{
+  "name": "haskell-monad-practice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Hajime-Suzuki/haskell-monads.git",
+  "author": "Hajime-Suzuki <hajime.doublebass@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ghcid --command 'stack repl' --test ':main'"
+  }
+}
