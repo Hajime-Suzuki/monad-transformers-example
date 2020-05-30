@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: ae85b4be6944cebeebf976035ccd0ac7ae7b6175e1c58cc9cf921eb1384775c5
+-- hash: a120df6330f1487f1004d4b92c5bf5b8d3f6a7fc93cbd9f4737933dc98b5e465
 
 name:           monad-transformers-example
 version:        0.1.0.0
@@ -29,6 +29,8 @@ library
   exposed-modules:
       Config
       Types
+      UseCase
+      User
   other-modules:
       Paths_monad_transformers_example
   hs-source-dirs:
